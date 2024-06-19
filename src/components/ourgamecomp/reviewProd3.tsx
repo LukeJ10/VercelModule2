@@ -3,7 +3,7 @@ import React from 'react';
 const ReviewProd3 = () => {
   const reviews = [
     { text: 'Octopath Traveler 2 is a very enjoyable JRPG sequel that feels a little too safe and familiar.', score: '7/10', source: 'IGN' },
-    { text: 'Octopath Traveler 2 makes for a satisfying night at the bar. It’s full of pathos and excitement that pushes you forward, and the gameplay is tight and enjoyable.', score: '4/5', source: 'TheGamer' },
+    { text: 'Octopath Traveler 2 makes for a satisfying night at the bar. It&apos;s full of pathos and excitement that pushes you forward, and the gameplay is tight and enjoyable.', score: '4/5', source: 'TheGamer' },
     { text: 'The non-linear storytelling, freeform exploration, and strategic combat of Octopath Traveler 2 makes for a challenging and satisfying RPG adventure.', score: '8/10', source: 'GameSpot' },
   ];
 
