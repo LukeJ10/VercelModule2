@@ -2,17 +2,13 @@ const initialState = {
     conspiracyMode: false,
   };
   
-  const rootReducer = (state = initialState, action:any) => {
+  const conspiracyModeReducer = (state = false, action: { type: string }) => {
     switch (action.type) {
       case 'TOGGLE_CONSPIRACY_MODE':
-        return {
-          ...state,
-          conspiracyMode: !state.conspiracyMode,
-        };
+        return !state;
       default:
         return state;
     }
   };
-  
-  export default rootReducer;
+  export default conspiracyModeReducer;
   

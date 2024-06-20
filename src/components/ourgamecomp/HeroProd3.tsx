@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroProd3: React.FC = () => {
   return (
-    <div className="relative w-full min-h-[600px]">
+    <div className="relative w-full min-h-[600px] z-0">
       <Image
         src="/images/HeroProduct3.png"
         alt="Background"

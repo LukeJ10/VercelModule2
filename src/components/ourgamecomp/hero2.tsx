@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroProd3 = () => {
   return (
-    <div className="relative w-full h-64 min-h-[600px]">
+    <div className="relative w-full h-64 min-h-[600px] z-0">
       <Image
         src="/images/ProductHero2.png"
         alt="Background"
