@@ -22,11 +22,11 @@ const ReviewProd2 = () => {
   return (
     <div className="py-10 bg-gray-900 text-white">
       <h2 className="text-center text-3xl font-bold mb-6">Reviews</h2>
-      <div className="flex justify-around">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         {reviews.map((review, index) => (
-          <div key={index} className="w-1/3 p-4 bg-gray-800 shadow-md rounded-lg mx-2">
-            <p className="text-lg">{review.type}</p>
-            <p className="text-2xl font-bold mt-2">{review.text}</p>
+          <div key={index} className="p-4 bg-gray-800 shadow-md rounded-lg">
+            <p className="text-lg font-semibold">{review.type}</p>
+            <p className="text-xl font-bold mt-2">{review.text}</p>
             <p className="italic mt-2">{review.award}</p>
           </div>
         ))}

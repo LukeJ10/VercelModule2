@@ -20,8 +20,8 @@ const GamesHero1 = () => {
           height={100}
         />
         </div>
-        <div className="pl-96">
-        <p className="text-lg text-right mt-2 pl-96">
+        <div className="pl-5 lg:pl-96 md:pl-96">
+        <p className="text-md md:text-lg lg:text-lg text-right mt-2 pl-1 lg:pl-96 md:pl-96">
           Embark on an epic journey through a world torn by ancient prophecy.
           Chained Echoes combines classic RPG elements with modern storytelling,
           offering a rich tapestry of adventure, strategy, and unforgettable

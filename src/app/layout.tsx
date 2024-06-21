@@ -1,8 +1,14 @@
+
 import type { Metadata } from "next";
 import { Metrophobic } from "next/font/google";
 import "./globals.css";
+import { Provider } from 'react-redux';  // Import Redux Provider
+import store from "@/Redux/Store";  // Adjust the path to your store file
 
-const inter = Metrophobic({subsets: ["latin"],weight:["400"]});
+const inter = Metrophobic({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      
+          {children}
+        
+      </body>
     </html>
   );
 }
+

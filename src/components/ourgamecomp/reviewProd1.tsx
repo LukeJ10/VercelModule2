@@ -10,9 +10,9 @@ const ReviewProd1: React.FC = () => {
   return (
     <div className="py-10 bg-gray-900">
       <h2 className="text-center text-3xl font-bold mb-6 text-white">Reviews</h2>
-      <div className="flex justify-around">
+      <div className="flex flex-col md:flex-row justify-around">
         {reviews.map((review, index) => (
-          <div key={index} className="w-1/3 p-4 bg-gray-800 shadow-md rounded-lg mx-2">
+          <div key={index} className="w-full md:w-1/3 p-4 bg-gray-800 shadow-md rounded-lg mb-4 md:mb-0 mx-2">
             <p className="italic text-white">&quot;{review.text}&quot;</p>
             <p className="font-bold mt-2 text-white">{review.score} - {review.source}</p>
           </div>
