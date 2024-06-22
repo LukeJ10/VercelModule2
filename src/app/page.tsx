@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar'
 import React from 'react'
 import MiniTeam from '@/components/homepagecomp/miniTeam'
 import TestimoniesBar from '@/components/homepagecomp/TestimoniesBar'
+
 const Homepage = () => {
   return (
     <div className='h-full'>

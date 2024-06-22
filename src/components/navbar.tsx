@@ -26,9 +26,9 @@ const Navbar = () => {
       </div>
       <div className='flex gap-10 items-center'>
         <div className={`flex-col lg:flex-row md:flex-row ${isMenuOpen ? 'flex' : 'hidden'} lg:flex md:flex gap-10 items-center`}>
-          <a href="/about" className='hover:text-black'>About US</a>
-          <a href="/games" className='hover:text-black'>Our Games</a>
-          <a href="/team" className='hover:text-black'>Our Team</a>
+          <a href="/about" className='hover:text-black text-white'>About US</a>
+          <a href="/games" className='hover:text-black text-white'>Our Games</a>
+          <a href="/team" className='hover:text-black text-white'>Our Team</a>
         </div>
         <div className='flex w-64 gap-6 items-center'>
           <a href="/" className='hidden lg:block md:block'><SiTwitter /></a>
